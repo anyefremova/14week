@@ -5,12 +5,16 @@ console.log(myFirstArray);
 
 //Задание 2
 //Создайте массив mySecondArray, заполните его любыми значениями. Выведите длину массива.
-// const mySecondArray = // объявите переменную здесь
+const mySecondArray = ['Самоед', 'Сноу', 4]
+console.log(mySecondArray.length)
 
-/*
 //Задание 3
 //Создайте массив myInformation, который содержит ваше имя, день рождения, месяц рождения и знак зодиака. Выведите массив в консоль, разделяя элементы пробелами. Вам понадобится метод join().
+const myInformation = ['Аня', 10, 'июль', 'Рак']
+const resultMyInformation = myInformation.join(' ');
+console.log(resultMyInformation);
 
+/*
 //Задание 4
 //Добавьте в массив countries значения 'Italy' с индексом 5, 'Spain' с индексом 6 и 'France' с индексом 7. Добавление элементов произведите с помощью метода push().
 let countries = ['Austria', 'Belgium', 'Netherlands', 'Czechia', 'Croatia'];
