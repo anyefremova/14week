@@ -27,3 +27,17 @@ const badGrade = grades.filter(el => el < 60);
 console.log(badGrade.length);
 
 //7 задание
+const gradeConversion = grades.map(grade => {
+    if (grade >= 80 && grade <= 100) {
+        return 'A';
+    } else if (grade >= 60 && grade < 79) {
+        return 'B';
+    } else if (grade >= 40 && grade < 59) {
+        return 'C';
+    } else if (grade >= 20 && grade < 39) {
+        return 'D';
+    } else {
+        return 'E';
+    }
+});
+console.log(gradeConversion);
